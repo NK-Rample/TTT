@@ -20,6 +20,49 @@ client.on('message', msg => {  //NK-Rample
     }
   });
 
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'باي') {  //NK-Rample
+      msg.reply('**مع السلامه**');  //NK-Rample
+    }
+  });
+
+
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'NK Rample Bot') {  //NK-Rample
+      msg.reply('**نعم**');  //NK-Rample
+    }
+  });
+
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'كيفك بوت') {  //NK-Rample
+      msg.reply('**الحمد لله**');  //NK-Rample
+    }
+  });
+
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'وين رامبل') {  //NK-Rample
+      msg.reply('**منشن له**');  //NK-Rample
+    }
+  });
+
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'نايتي نايتي') {  //NK-Rample
+      msg.reply('**نايتي**');  //NK-Rample
+    }
+  });
+
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'قناه مصطفي') {  //NK-Rample
+      msg.reply('**https://www.youtube.com/channel/UC0J9uyutdhbeQZ_daqby5Pg**');  //NK-Rample
+    }
+  });
+
+client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'قناه ارتيكس') {  //NK-Rample
+      msg.reply('**https://www.youtube.com/channel/UCDuR-14RsbMN6yu1CeoFMBQ**');  //NK-Rample
+    }
+  });
+
 
 client.on('message', msg => {  //NK-Rample
     if (msg.content === 'احبك') {  //NK-Rample
