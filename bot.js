@@ -35,6 +35,13 @@ client.on('message', msg => {  //NK-Rample
   });
 
 
+   client.on('message', msg => {  //NK-Rample
+    if (msg.content === 'قناه رامبل') {  //NK-Rample
+      msg.reply('**https://www.youtube.com/channel/UCjDq70ERmtvSpfq2XJ0xijg?view_as=subscriber**');  //NK-Rample
+    }
+  });
+
+
   
    client.on('message', msg => {  //NK-Rample
     if (msg.content === 'هلا') {  //NK-Rample
@@ -1306,7 +1313,7 @@ client.on('message', message=>{
             SEND_MESSAGES: false
     })
 })
-message.channel.send("**✅ ,تم انشاء روم اللوق بنجــاح**")
+message.channel.send("**✅ ,تم انشـاء روم اللوق بنجــاح**")
     }
     }  
      })
@@ -2465,7 +2472,7 @@ client.on('message', msg => {
   command = command.slice(prefix.length);
   let args = msg.content.split(" ").slice(1);
 
-    if(command === "مسسح") {
+    if(command === "مسح") {
         const emoji = client.emojis.find("name", "wastebasket")
     let textxt = args.slice(0).join("");
     if(msg.member.hasPermission("MANAGE_MESSAGES")) {
@@ -2762,7 +2769,7 @@ const zead = [
    '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدني في نشر البوت وادخل هذا السيرفر  ***'
 ];
  client.on('message', message => {
- if (message.content.startsWith('$مريم')) {
+ if (message.content.startsWith('-مريم')) {
   var mariam= new Discord.RichEmbed()
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
@@ -2919,7 +2926,7 @@ client.on('message', message => {
   if (message.mentions.users.size < 1) return message.reply("**منشن شخص**");
   if(!reason) return message.reply ("**اكتب سبب الطرد**");
   if (!message.guild.member(user)
-  .kickable) return message.reply("**لايمكنني طرد شخص اعلى من رتبتي يرجه اعطاء البوت رتبه عالي**");
+  .kickable) return message.reply("**لايمكنني طرد شخص اعلى من رتبتي يرجه اعطاء البوت رتبه عاليه**");
 
   message.guild.member(user).kick();
 
@@ -3080,7 +3087,7 @@ client.on('message' , message => {
 client.on('typingStart', (ch, user) => {
       if(user.presence.status === 'offline') {
 
-          ch.send(`${user}☹ هاهاهاا , كشفتك وانت تكتب ي اوف لاين✉`)
+          ch.send(`${user}☹ هاهاهاا , كشفتك وانت تكتب ي اوف لاين ترا تاخذ باند لو سويتها مره ثانيه يا ورع✉`)
           .then(msg => {
               msg.delete(10000)
           })
@@ -3718,7 +3725,7 @@ reaction2.on("collect", r => {
 『-bs ====> لمعرفة سيرفرات البوت
 『-rooms ====> لرؤية رومات السيرفر
 『-dc ====> مسح كل الرومات
-『-dr ====>  فوق كل الرانكات
+『-dr ====>  مسح كل الرانكات
 『-allbots ====> يوريك كل البوتات في سيرفرك
 『-move ====> لسحب عضو الى روم صوتية
 『-giveaway ====> لصنع جيفواي
@@ -3805,6 +3812,7 @@ client.on('message', message => {
     if (message.content == "-فكك") {
         var x = ["محمد",
 "مدرسة",
+"رامبل",
 "بيت",
 "الله",
 "بيت مقدس",
@@ -3814,8 +3822,9 @@ client.on('message', message => {
 "طماطم",
 "سيرفر",
 ];
-        var x2 = ['م ح م ح',
+        var x2 = ['م ح م د',
         "م د ر س ة",
+        "ر ا م ب ل",
         "ب ي ت ",
         "ا ل ل ه",
 "ب ي ت م ق د س",
@@ -4356,6 +4365,9 @@ client.on("message", message => {
 7)ممنوع نشر صور من  مواقع التواصل الاجتماعى  بحقوق ملكيه
 8)ممنوع طلب الرتبه والرتب تكون بالتفاعل
 9)لاستخدام البوت  فى - #cmd
+
+صاحب / مبرمج البوت :NK-Rample
+الاوامر خاصه بسيرفر :NK-Rample
 __
 
 @everyone || @here
@@ -4376,8 +4388,8 @@ __
             var embed = new Discord.RichEmbed()
             .setAuthor(member.user.username, member.user.avatarURL)
             .setThumbnail(member.user.avatarURL)
-            .setTitle(`الله معاك ✋:skin-tone-1: 😔`)
-            .setDescription(`مع السلامه تشرفنا بك ✋:skin-tone-1: 😔 `)
+            .setTitle(`الله معاك`)
+            .setDescription(`مع السلامه تشرفنا بك`)
             .addField('👤   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
             .setColor('RED')
             .setFooter(`==== نــتــمــنــآ لــكــم آســتــمـــتــآع ====`, 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
