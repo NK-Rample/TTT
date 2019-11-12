@@ -16,7 +16,7 @@ client.on('message', msg => {  //NK-Rample
 
 client.on('message', msg => {  //NK-Rample
     if (msg.content === 'رامبل') {  //NK-Rample
-      msg.reply('**رامبل مات**');  //NK-Rample
+      msg.reply('**منشن له لو مو موجود**');  //NK-Rample
     }
   });
 
