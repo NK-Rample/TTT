@@ -4430,7 +4430,7 @@ __
     `)
  
      
-       message.channel.send(`**${message.author**`); 
+             message.channel.sendEmbed(embed);
       
       }
 }); 
