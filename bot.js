@@ -40,6 +40,24 @@ client.on('message', msg => {  //NK-Rample
   });
 
 client.on('message', msg => {  //NK-Rample
+    if (msg.content === '-feat') {  //NK-Rample
+      msg.reply('**:crown: :7485_server_boost: :crown: ╲⎝⧹『مميزات السيرفر』⧸⎠╱:crown: :7485_server_boost: :crown: 
+
+
+:crown: :7485_server_boost: :crown: 『دعم فني مميز جدا موجودين 24 ساعه』『1』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown: 『لاي اقتراح يفيدنا في غرفه الاقتراحات』『2』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown: 『في 15 روم للصوت تقدر تسمع اغاني』『3』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown: 『السيرفر فيه العاب تقدر تلعب 24 ساعه』『4』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown: 『بوتات ترحب فيك عند الدخول للسيرفر』『5』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown: 『تقدر تحصل رتبه بعدم المخالفه للقوانين』『6』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown: 『غرف مخصصه للاوامر و الالعاب』『7』:crown: :7485_server_boost: :crown: 
+         :crown: :7485_server_boost: :crown: 『مع تحيات المسؤل عن السيرفر』:crown: :7485_server_boost: :crown: 
+:crown: :7485_server_boost: :crown:  @╲⎝⧹『ツ𝕹𝕶-𝕽𝕬𝕸𝕻𝕷𝕰ヅ』⧸⎠╱ :crown: :7485_server_boost: :crown: 
+           :crown: :7485_server_boost: :crown: 『وان شاء الله السيرفر يعجبك』:crown: :7485_server_boost: :crown: **');  //NK-Rample
+    }
+  });
+
+client.on('message', msg => {  //NK-Rample
     if (msg.content === 'وين رامبل') {  //NK-Rample
       msg.reply('**منشن له**');  //NK-Rample
     }
