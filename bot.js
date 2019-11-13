@@ -4436,7 +4436,7 @@ __
 }); 
 
 client.on("message", message => {
-    if (message.content === "-rules") {
+    if (message.content === "-feat") {
            message.react("✅")
               message.react("❌")
      const embed = new Discord.RichEmbed() 
