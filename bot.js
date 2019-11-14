@@ -60,13 +60,13 @@ client.on('message', msg => {  //NK-Rample
 
 client.on('message', msg => {  //NK-Rample
     if (msg.content === 'قناه مصطفي') {  //NK-Rample
-      msg.reply('**https://www.youtube.com/channel/UC0J9uyutdhbeQZ_daqby5Pg**');  //NK-Rample
+      msg.reply('**https://www.youtube.com/channel/UC0J9uyutdhbeQZ_daqby5Pg?view_as=subscriber**');  //NK-Rample
     }
   });
 
 client.on('message', msg => {  //NK-Rample
     if (msg.content === 'قناه ارتيكس') {  //NK-Rample
-      msg.reply('**https://www.youtube.com/channel/UCDuR-14RsbMN6yu1CeoFMBQ**');  //NK-Rample
+      msg.reply('**https://www.youtube.com/channel/UCDuR-14RsbMN6yu1CeoFMBQ?view_as=subscriber**');  //NK-Rample
     }
   });
 
