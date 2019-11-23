@@ -1,101 +1,51 @@
-const Discord = require('discord.js');  //NK-Rample
-const client = new Discord.Client();  //NK-Rample
+const Discord = require('discord.js');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+const client = new Discord.Client();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 const moment = require('moment');
-const zalgo = require('zalgolize');  //NK-Rample
-const math = require('math-expression-evaluator');   //NK-Rample 
-const figlet = require('figlet');   //NK-Rample
-const fs = require('fs');  //NK-Rample
-const ms = require('ms');  //NK-Rample
+const zalgo = require('zalgolize');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+const math = require('math-expression-evaluator');   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱ 
+const figlet = require('figlet');   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+const fs = require('fs');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+const ms = require('ms');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 const prefix = '-'
 
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'باك') {  //NK-Rample
-      msg.reply('** :wink: وِلِـكُمِـ ﻧَوِرُتْ   :sparkling_heart:**');  //NK-Rample
+client.on('message', msg => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if (msg.content === 'باك') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      msg.reply('** :wink: وِلِـكُمِـ ﻧَوِرُتْ   :sparkling_heart:**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
   });
 
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'السلام عليكم') {  //NK-Rample
-      msg.reply('**وعليكم السلام**');  //NK-Rample
-    }
-  });
-
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'رامبل') {  //NK-Rample
-      msg.reply('**منشن له لو مو موجود**');  //NK-Rample
-    }
-  });
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'باي') {  //NK-Rample
-      msg.reply('**مع السلامه**');  //NK-Rample
+client.on('message', msg => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if (msg.content === 'رامبل') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      msg.reply('**منشن له لو مو موجود**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
   });
 
 
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'NK Rample Bot') {  //NK-Rample
-      msg.reply('**نعم**');  //NK-Rample
-    }
-  });
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'كيفك بوت') {  //NK-Rample
-      msg.reply('**الحمد لله**');  //NK-Rample
-    }
-  });
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'وين رامبل') {  //NK-Rample
-      msg.reply('**منشن له**');  //NK-Rample
-    }
-  });
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'نايتي نايتي') {  //NK-Rample
-      msg.reply('**نايتي**');  //NK-Rample
-    }
-  });
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'قناه مصطفي') {  //NK-Rample
-      msg.reply('**https://www.youtube.com/channel/UC0J9uyutdhbeQZ_daqby5Pg?view_as=subscriber**');  //NK-Rample
-    }
-  });
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'قناه ارتيكس') {  //NK-Rample
-      msg.reply('**https://www.youtube.com/channel/UCDuR-14RsbMN6yu1CeoFMBQ?view_as=subscriber**');  //NK-Rample
-    }
-  });
-
-
-client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'احبك') {  //NK-Rample
-      msg.reply('**لاتحتك يا اخوي لو سمحت**');  //NK-Rample
+client.on('message', msg => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if (msg.content === 'احبك') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      msg.reply('**لاتحتك يا اخوي لو سمحت**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
   });
   
 
-  client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'احبك') {  //NK-Rample
-      msg.reply('**حبك برص يا سافل**');  //NK-Rample
+  client.on('message', msg => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if (msg.content === 'احبك') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      msg.reply('**حبك برص يا سافل**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
   });
 
 
-   client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'قناه رامبل') {  //NK-Rample
-      msg.reply('**https://www.youtube.com/channel/UCjDq70ERmtvSpfq2XJ0xijg?view_as=subscriber**');  //NK-Rample
+   client.on('message', msg => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if (msg.content === 'قناه رامبل') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      msg.reply('**https://www.youtube.com/channel/UCjDq70ERmtvSpfq2XJ0xijg?view_as=subscriber**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
   });
 
 
   
-   client.on('message', msg => {  //NK-Rample
-    if (msg.content === 'هلا') {  //NK-Rample
-      msg.reply('**هلا بيك :heart: **');  //NK-Rample
+   client.on('message', msg => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if (msg.content === 'هلا') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      msg.reply('**هلا بيك :heart: **');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
   });
 
@@ -103,83 +53,83 @@ client.on('message', msg => {  //NK-Rample
 
 
   
-  client.on("message", message => {  //NK-Rample
-    if(message.content.startsWith(prefix + 'v2min')) {  //NK-Rample
-     let args = message.content.split(" ").slice(1);  //NK-Rample
+  client.on("message", message => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(message.content.startsWith(prefix + 'v2min')) {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+     let args = message.content.split(" ").slice(1);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
        var nam = args.join(' ');
     
       if(!message.member.hasPermission('ADMINISTRATOR')) return    message.channel.send('`ADMINISTRATOR` للأسف هذه الخاصية تحتاج الى ').then(msg => msg.delete(6000))
-      if (!nam) return message.channel.send(`<@${message.author.id}> يجب عليك ادخال اسم`).then(msg => msg.delete(10000))  //NK-Rample
-      message.guild.createChannel(nam, 'voice').then(c => setTimeout(() => c.delete(), 120000))   //NK-Rample
+      if (!nam) return message.channel.send(`<@${message.author.id}> يجب عليك ادخال اسم`).then(msg => msg.delete(10000))  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      message.guild.createChannel(nam, 'voice').then(c => setTimeout(() => c.delete(), 120000))   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       message.channel.send(`:ballot_box_with_check: TemporarySound : \`${nam}\``).then(c => setTimeout(() => c.edit(`<@${message.author.id}> :stopwatch:  انتهى وقت الروم الصوتي`), 120000)) 
     }
     });
 
-client.on("message", message => {    //NK-Rample
-    if(message.content.startsWith(prefix + "emoji")) {   //NK-Rample
-        if(message.author.bot) return;  //NK-Rample
-        var emojiid =  message.content.split(" ").slice(1).join(" ")   //NK-Rample
+client.on("message", message => {    //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(message.content.startsWith(prefix + "emoji")) {   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        if(message.author.bot) return;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        var emojiid =  message.content.split(" ").slice(1).join(" ")   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         console.log(emojiid) 
-        if(emojiid.length < "18" || emojiid.length > "18" || isNaN(emojiid)) return  message.channel.send(`- Usage  //NK-Rample
+        if(emojiid.length < "18" || emojiid.length > "18" || isNaN(emojiid)) return  message.channel.send(`- Usage  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 ${prefix}emoji <EmojiID>`); 
         else    
-        message.channel.send("This is the emoji that you requested:-",  //NK-Rample
+        message.channel.send("This is the emoji that you requested:-",  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
           { 
-            files: [`https://cdn.discordapp.com/emojis/${emojiid}.png`]  //NK-Rample
+            files: [`https://cdn.discordapp.com/emojis/${emojiid}.png`]  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
           }) 
         }  
 })   
 
 
 
- client.on("message", message => {  //NK-Rample
-  if (message.channel.type === "dm") {    //NK-Rample
+ client.on("message", message => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  if (message.channel.type === "dm") {    //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 
-      message.channel.startTyping();    //NK-Rample
-      setTimeout(() => {    //NK-Rample
-        message.channel.stopTyping();    //NK-Rample
-      }, Math.random() * (1 - 3) + 1 * 1000);  //NK-Rample
+      message.channel.startTyping();    //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      setTimeout(() => {    //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        message.channel.stopTyping();    //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      }, Math.random() * (1 - 3) + 1 * 1000);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
    
   }  
 });  
 
-const clans = {};  //NK-Rample
-const system = {};  //NK-Rample
-const level = {};  //NK-Rample
+const clans = {};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+const system = {};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+const level = {};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
  
-client.on('message',async message => {  //NK-Rample
-  if(message.author.bot) return;  //NK-Rample
-  if(message.channel.type === 'dm') return;  //NK-Rample
+client.on('message',async message => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  if(message.author.bot) return;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  if(message.channel.type === 'dm') return;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
-  let args = message.content.split(' ');  //NK-Rample
-  let random = Math.floor(Math.random() * 5) + 2;  //NK-Rample
+  let args = message.content.split(' ');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  let random = Math.floor(Math.random() * 5) + 2;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
   let author = message.author;
  
-  let xpLeft;  //NK-Rample
-  let nameClan;  //NK-Rample
-  let membersClan = [];  //NK-Rample
-  let levelClan = 0;  //NK-Rample
-  if(!system[author.id]) system[author.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};  //NK-Rample
+  let xpLeft;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  let nameClan;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  let membersClan = [];  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  let levelClan = 0;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  if(!system[author.id]) system[author.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
-  if(!level[author.id]) level[author.id] = {level: 1, xp: 1};  //NK-Rample
+  if(!level[author.id]) level[author.id] = {level: 1, xp: 1};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
  
-  level[author.id].xp += (+random);  //NK-Rample
-  if(level[author.id].xp >= 300) {  //NK-Rample
-    if(level[author.id].xp > 300) xpLeft = level[author.id].xp - 300;  //NK-Rample
-    level[author.id] = {  //NK-Rample
-      level: level[author.id].level + 1,  //NK-Rample
-      xp: xpLeft  //NK-Rample
+  level[author.id].xp += (+random);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+  if(level[author.id].xp >= 300) {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(level[author.id].xp > 300) xpLeft = level[author.id].xp - 300;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    level[author.id] = {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      level: level[author.id].level + 1,  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      xp: xpLeft  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     };
  
   }
-  if(message.content.startsWith(prefix + "clan")) {  //NK-Rample
-    if(message.content.split(' ')[0] !== `${prefix}clan`) return;  //NK-Rample
+  if(message.content.startsWith(prefix + "clan")) {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(message.content.split(' ')[0] !== `${prefix}clan`) return;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
-    if(!args[1] || args[1] && args[1] === 'info') {  //NK-Rample
+    if(!args[1] || args[1] && args[1] === 'info') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
   let embed = new Discord.RichEmbed()
-  .setAuthor('الكلانات', message.author.avatarURL)  //NK-Rample
+  .setAuthor('الكلانات', message.author.avatarURL)  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
   .setDescription(`- \`${prefix}clan\`: نظام الكلانات هو نظام شبه مسلي ينمي التفاعل ويمكنك التحكم بالكلان تبعك بشكل كامل
   - \`${prefix}clan info\`: لأظهار رسالة الأوامر ( هذه الرسالة ) ء
   - \`${prefix}clan create\`: لأنشاء كلان بالأسم الذي تريده
@@ -196,11 +146,11 @@ client.on('message',async message => {  //NK-Rample
   - \`${prefix}clan accept\`: لقبول شخص وجعل الشخص يدخل الكلان ( يتطلب صلاحية الادمن ) ء
   - \`${prefix}clan decline\`: لرفض شخص وعم جعل الشخص يدخل الكلان ( يطلب صلاحية الادمن ) ء
   - \`${prefix}clan room\`: لعمل روم شات او كتابي بأسم الكلان ( صاحب الكلان فقط ) ء`)
-  .setFooter(message.author.username, message.author.avatarURL);  //NK-Rample
+  .setFooter(message.author.username, message.author.avatarURL);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
   message.channel.send(embed);
 }
  
-    if(args[1] && args[1] === 'create') {  //NK-Rample
+    if(args[1] && args[1] === 'create') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       if(level[author.id].level < 10) return message.channel.send('**# يجب أن يكون لديك 10 مستويات لعمل كلان , لتجميع مستويات تفاعل بالشات وسيتم حساب النقاط**');
       if(system[author.id].clan !== 'None') return message.channel.send('**# يجب عليك ان تخرج من الكلان الذي أنت به حاليا**');
  
@@ -209,130 +159,130 @@ client.on('message',async message => {  //NK-Rample
         if(collected.first().content.length > 25) return message.channel.send("**# لا يمكنك وضع اسم للكلان يفوق الـ25 حرفا , أعد كابة الأمر**");
         if(collected.first().content.includes("None")) return message.channel.send("**# `None`, لا يمكنك وضع هذه الكلمة كأسم للكلان**");
         collected.first().delete().catch();
-        nameClan = collected.first().content;  //NK-Rample
+        nameClan = collected.first().content;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       });
  
-      m = await m.edit('**# جارى عمل الكلان**');  //NK-Rample
-      awaited = await setTimeout(async() => {  //NK-Rample
+      m = await m.edit('**# جارى عمل الكلان**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      awaited = await setTimeout(async() => {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         let membersArray = {
           nameClan: {
             array: []
           }
         };
-        let members = membersArray.nameClan.array;  //NK-Rample
+        let members = membersArray.nameClan.array;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         members.push(message.author.id);
         clans[nameClan] = {
           name: nameClan,
-          createdAt: new Date().toLocaleString(),  //NK-Rample
+          createdAt: new Date().toLocaleString(),  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
           level: levelClan,
-          creator: message.author.id,  //NK-Rample
-          members: members,  //NK-Rample
-          applylist: [],  //NK-Rample
-          admins: []  //NK-Rample  //NK-Rample
+          creator: message.author.id,  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          members: members,  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          applylist: [],  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          admins: []  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         };
  
-        system[author.id] = {  //NK-Rample
-          clan: nameClan,  //NK-Rample
-          joinedAt: new Date().toLocaleString(),  //NK-Rample
-          clanLevel: 0,  //NK-Rample
-          creator: message.author.id  //NK-Rample
+        system[author.id] = {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          clan: nameClan,  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          joinedAt: new Date().toLocaleString(),  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          clanLevel: 0,  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          creator: message.author.id  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         };
  
-        m = await m.edit('**# تم عمل الكلان بنجاح**');  //NK-Rample
+        m = await m.edit('**# تم عمل الكلان بنجاح**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       }, 2300);
  
     }
-    if(args[1] && args[1] === 'invite') {  //NK-Rample
-      if(!system[author.id]) return message.channel.send("**# أنت لست بكلان**");  //NK-Rample
+    if(args[1] && args[1] === 'invite') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!system[author.id]) return message.channel.send("**# أنت لست بكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       let clan = system[author.id].clan;
-      if(system[author.id].clan === 'None') return message.channel.send('**# أنت لست بكلان**');  //NK-Rample
+      if(system[author.id].clan === 'None') return message.channel.send('**# أنت لست بكلان**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       if(!clans[clan].admins.includes(message.author.id) && clans[system[author.id].clan].creator !== message.author.id) return message.channel.send('**# يجب عليك ان تكون اداري بالكلان**');
-      let mention = message.mentions.users.first();  //NK-Rample
-      if(!mention) return message.channel.send('**# منشن شخص لدعوته للكلان**');  //NK-Rample
-      if(clans[clan].members.includes(mention.id)) return message.channel.send("**# هذا العضو بالكلان بالفعل**");  //NK-Rample
-      if(clans[clan].members.length === 10) return message.channel.send("**# هذا الكلان وصل للحد الاقصى من الاعضاء يمكنك**");  //NK-Rample
-   //NK-Rample  //NK-Rample  //NK-Rample  //NK-Rample  //NK-Rample
+      let mention = message.mentions.users.first();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!mention) return message.channel.send('**# منشن شخص لدعوته للكلان**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(clans[clan].members.includes(mention.id)) return message.channel.send("**# هذا العضو بالكلان بالفعل**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(clans[clan].members.length === 10) return message.channel.send("**# هذا الكلان وصل للحد الاقصى من الاعضاء يمكنك**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       let m = await message.channel.send(`**${mention} # \`${clan}\`, تم دعوتك لدخول الكلان**\n\n - لقبول الدعوة \`نعم\`\n - لرفض الدعوة \`لا\``);
       let awaiting = await message.channel.awaitMessages(r => r.author.id === mention.id, {max: 1, time: 20000, errors:['time']}).then(collected => {
-        collected.first().delete().catch();  //NK-Rample
-        if(collected.first().content === 'نعم') {  //NK-Rample
-          clans[clan].members.push(mention.id);  //NK-Rample
+        collected.first().delete().catch();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        if(collected.first().content === 'نعم') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          clans[clan].members.push(mention.id);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
-          system[author.id].members += 1;  //NK-Rample
+          system[author.id].members += 1;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
  
-          system[mention.id] = {  //NK-Rample
+          system[mention.id] = {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
             clan: clan,
-            joinedAt: new Date().toLocaleString(),  //NK-Rample
+            joinedAt: new Date().toLocaleString(),  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
             clanLevel: 0,
-            creator: clans[clan].creator  //NK-Rample
+            creator: clans[clan].creator  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
           };
  
-          message.channel.send(`**${message.author} # تم قبول الدعوة**`);  //NK-Rample
-        }  //NK-Rample
-        if(collected.first().content === 'لا') {  //NK-Rample
-          message.channel.send(`**${message.author} # تم رفض الدعوة**`);  //NK-Rample
-        } else if(collected.first().content !== 'نعم' && collected.first().content !== 'لا'){  //NK-Rample
-          return message.channel.send('**# يجب عليك كتابة `نعم` أو `لا`**');  //NK-Rample
-        }  //NK-Rample
-      });  //NK-Rample
-    }  //NK-Rample
+          message.channel.send(`**${message.author} # تم قبول الدعوة**`);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        }  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        if(collected.first().content === 'لا') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          message.channel.send(`**${message.author} # تم رفض الدعوة**`);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        } else if(collected.first().content !== 'نعم' && collected.first().content !== 'لا'){  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+          return message.channel.send('**# يجب عليك كتابة `نعم` أو `لا`**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        }  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      });  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    }  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     if(args[1] && args[1] === 'stats') {
-      if(system[author.id].clan === 'None') return message.channel.send('**# يجب ان تكون بكلان لأستخدام هذا الأمر**');  //NK-Rample
-      let clan = system[author.id].clan;  //NK-Rample
-      let embed = new Discord.RichEmbed()  //NK-Rample
-        .setAuthor(`${message.author.username} || الكلانات`, message.author.avatarURL)  //NK-Rample
-        .setDescription(`الكلان || \`${clan.toString()}\``)  //NK-Rample
-        embed.addField('» اسم الكلان', clan, true)  //NK-Rample
-        embed.addField('» تاريخ عمل الكلان', clans[clan].createdAt, true);  //NK-Rample
-        embed.addField('» تاريخ دخول الكلان', system[author.id].joinedAt, true)  //NK-Rample
-        embed.addField('» صاحب الكلان', `<@${clans[clan].creator}>`, true);  //NK-Rample
-        embed.addField('» لفل الكلان', clans[clan].level, true);  //NK-Rample
-        embed.addField('» عدد اعضاء الكلان', clans[clan].members.length, true);  //NK-Rample
-        embed.addField('» عدد التقديمات للكلان', clans[clan].applylist.length, true);  //NK-Rample
-        embed.addField('» عدد الادمنية بالكلان', clans[clan].admins.length, true);  //NK-Rample
-        embed.addField('» اعضاء الكلان', `${prefix}clan list || يظهرلك رسالة بها اعضاء الكلان`);  //NK-Rample
-      message.channel.send(embed);  //NK-Rample
+      if(system[author.id].clan === 'None') return message.channel.send('**# يجب ان تكون بكلان لأستخدام هذا الأمر**');  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      let clan = system[author.id].clan;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      let embed = new Discord.RichEmbed()  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        .setAuthor(`${message.author.username} || الكلانات`, message.author.avatarURL)  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        .setDescription(`الكلان || \`${clan.toString()}\``)  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» اسم الكلان', clan, true)  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» تاريخ عمل الكلان', clans[clan].createdAt, true);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» تاريخ دخول الكلان', system[author.id].joinedAt, true)  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» صاحب الكلان', `<@${clans[clan].creator}>`, true);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» لفل الكلان', clans[clan].level, true);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» عدد اعضاء الكلان', clans[clan].members.length, true);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» عدد التقديمات للكلان', clans[clan].applylist.length, true);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» عدد الادمنية بالكلان', clans[clan].admins.length, true);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        embed.addField('» اعضاء الكلان', `${prefix}clan list || يظهرلك رسالة بها اعضاء الكلان`);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      message.channel.send(embed);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
     }
-    if(args[1] && args[1] === 'join') {  //NK-Rample  //NK-Rample
-    let clanName = message.content.split(' ').slice(2).join(" ");  //NK-Rample
-    if(system[author.id].clan !== 'None') return message.channel.send("**# يجب أن لا تكون بكلان**");  //NK-Rample
-    if(!args[2]) return message.channel.send("**# يجب عليك كتابة اسم الكلان**");  //NK-Rample
-    if(!clans[clanName]) return message.channel.send("**# هذا الكلان غير موجود**");  //NK-Rample
-    if(clans[clanName].applylist.includes(message.author.id)) return message.channel.send("**# لقد قدمت على دخول هذا الكلان مسبقا");  //NK-Rample
-   //NK-Rample  //NK-Rample  //NK-Rample
-    clans[clanName].applylist.push(message.author.id);  //NK-Rample
-    message.channel.send("**# لقد تم التقديم على دخول الكلان , سيتم الرد عليك من قبل احد ادارة الكلان**");  //NK-Rample
+    if(args[1] && args[1] === 'join') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    let clanName = message.content.split(' ').slice(2).join(" ");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(system[author.id].clan !== 'None') return message.channel.send("**# يجب أن لا تكون بكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(!args[2]) return message.channel.send("**# يجب عليك كتابة اسم الكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(!clans[clanName]) return message.channel.send("**# هذا الكلان غير موجود**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(clans[clanName].applylist.includes(message.author.id)) return message.channel.send("**# لقد قدمت على دخول هذا الكلان مسبقا");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    clans[clanName].applylist.push(message.author.id);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    message.channel.send("**# لقد تم التقديم على دخول الكلان , سيتم الرد عليك من قبل احد ادارة الكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
   }
-    if(args[1] && args[1] === 'accept') {  //NK-Rample
+    if(args[1] && args[1] === 'accept') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       let mention = message.mentions.users.first();
-      if(system[author.id].clan === 'None') return message.channel.send("**# يجب عليك ان تكون بكلان لأستخدام هذا الأمر**");  //NK-Rample
+      if(system[author.id].clan === 'None') return message.channel.send("**# يجب عليك ان تكون بكلان لأستخدام هذا الأمر**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       if(!clans[system[author.id].clan].admins.includes(message.author.id) && clans[system[author.id].clan].creator !== message.author.id) return message.channel.send("**# يجب عليك ان تكون اداري بالكلان لأستخدام هذا الأمر**");
       if(!mention) return message.channel.send("**# يجب عليك منشنة شخص لأستخدام هذا الأمر**");
-      if(!system[mention.id]) system[mention.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};  //NK-Rample
+      if(!system[mention.id]) system[mention.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
       if(!clans[system[author.id].clan].applylist.includes(mention.id)) return message.channel.send("**# هذا الشخص لم يقم بالتقديم على دخول الكلان**");
  
-      clans[system[author.id].clan].applylist.shift(mention.id);  //NK-Rample
-      clans[system[author.id].clan].members.push(mention.id);  //NK-Rample
-      let clan = system[author.id].clan;  //NK-Rample
+      clans[system[author.id].clan].applylist.shift(mention.id);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      clans[system[author.id].clan].members.push(mention.id);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      let clan = system[author.id].clan;  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
  
-      system[mention.id] = {  //NK-Rample
+      system[mention.id] = {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         clan: clan,
-        joinedAt: new Date().toLocaleString(),  //NK-Rample
+        joinedAt: new Date().toLocaleString(),  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         clanLevel: 0,
-        creator: clans[clan].creator  //NK-Rample
-      };  //NK-Rample
-   //NK-Rample
+        creator: clans[clan].creator  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      };  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
-      mention.send(`**# \`${system[author.id].clan}\`, لقد تم قبولك بالكلان**`).catch();  //NK-Rample
-      message.channel.send(`**# \`${mention.username}\`, لقد تم قبول الشخص ودخوله للكلان**`);  //NK-Rample
-    }  //NK-Rample
-    if(args[1] && args[1] === 'decline') {  //NK-Rample
-      let mention = message.mentions.users.first();  //NK-Rample
+      mention.send(`**# \`${system[author.id].clan}\`, لقد تم قبولك بالكلان**`).catch();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      message.channel.send(`**# \`${mention.username}\`, لقد تم قبول الشخص ودخوله للكلان**`);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    }  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(args[1] && args[1] === 'decline') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      let mention = message.mentions.users.first();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       if(system[author.id].clan === 'None') return message.channel.send("**# يجب عليك ان تكون بكلان لأستخدام هذا الأمر**");
       if(!clans[system[author.id].clan].admins.includes(message.author.id) && clans[system[author.id].clan].creator !== message.author.id) return message.channel.send("**# يجب عليك ان تكون اداري بالكلان لأستخدام هذا الأمر**");
       if(!mention) return message.channel.send("**# يجب عليك منشنة شخص لأستخدام هذا الأمر**");
@@ -342,16 +292,16 @@ client.on('message',async message => {  //NK-Rample
  
       clans[system[author.id].clan].applylist.shift(mention.id);
  
-      system[mention.id] = {  //NK-Rample
-        clan: clans[system[author.id].clan],  //NK-Rample
+      system[mention.id] = {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+        clan: clans[system[author.id].clan],  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
         joinedAt: new Date().toLocaleString(),
-        clanLevel: 0  //NK-Rample
+        clanLevel: 0  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
       };
  
  
-      mention.send(`**# \`${system[author.id].clan}\`, لقد تم رفض دخولك للكلان**`).catch();  //NK-Rample
-      message.channel.send(`**# \`${mention.username}\`, لقد تم رفض دخول الشخص للكلان**`);  //NK-Rample
-   //NK-Rample
+      mention.send(`**# \`${system[author.id].clan}\`, لقد تم رفض دخولك للكلان**`).catch();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      message.channel.send(`**# \`${mention.username}\`, لقد تم رفض دخول الشخص للكلان**`);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
     }
     if(args[1] && args[1] === 'promote') {
       let mention = message.mentions.users.first();
@@ -360,30 +310,30 @@ client.on('message',async message => {  //NK-Rample
       if(!mention) return message.channel.send("**# يجب عليك منشنة عضو بالكلان لأعطائه الترقية**");
       if(!system[mention.id]) system[mention.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};
  
-      if(system[mention.id].clan === 'None') return message.channel.send("**# هذا الشخص ليس بكلان**");  //NK-Rample
-      if(!clans[system[author.id].clan].members.includes(mention.id)) return message.channel.send("**# هذا الشخص ليس بالكلان**");  //NK-Rample
-      if(clans[system[author.id].clan].admins.includes(mention.id)) return message.channel.send("**# هذا العضو لديه ادمن بالفعل**");  //NK-Rample
-      if(mention.id === message.author.id) return message.channel.send("**# لا يمكنك اعطاء نفسك ترقية**");  //NK-Rample
+      if(system[mention.id].clan === 'None') return message.channel.send("**# هذا الشخص ليس بكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!clans[system[author.id].clan].members.includes(mention.id)) return message.channel.send("**# هذا الشخص ليس بالكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(clans[system[author.id].clan].admins.includes(mention.id)) return message.channel.send("**# هذا العضو لديه ادمن بالفعل**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(mention.id === message.author.id) return message.channel.send("**# لا يمكنك اعطاء نفسك ترقية**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
-      clans[system[author.id].clan].admins.push(mention.id);  //NK-Rample
+      clans[system[author.id].clan].admins.push(mention.id);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
  
-      mention.send(`**# \`${system[author.id].clan}\`, لقد تم ترقيتك الى ادمن**`).catch();  //NK-Rample
-      message.channel.send(`**# \`${mention.username}\`, لقد تم ترقية العضو الى رتبة ادمن**`);  //NK-Rample
-    }  //NK-Rample
-    if(args[1] && args[1] === 'demote') {  //NK-Rample
-      let mention = message.mentions.users.first();  //NK-Rample
-      if(system[author.id].clan === 'None') return message.channel.send("**# يجب ان تكون بكلان لأستخدام هذا الأمر**");  //NK-Rample
-      if(clans[system[author.id].clan].creator !== message.author.id) return message.channel.send("**# هذا الأمر لضاحب الكلان فقط**");  //NK-Rample
-      if(!mention) return message.channel.send("**# يجب عليك منشنة عضو بالكلان لأعطائه الترقية**");  //NK-Rample
-      if(!system[mention.id]) system[mention.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};  //NK-Rample
-   //NK-Rample
-      if(system[mention.id].clan === 'None') return message.channel.send("**# هذا الشخص ليس بكلان**");  //NK-Rample
-      if(!clans[system[author.id].clan].members.includes(mention.id)) return message.channel.send("**# هذا الشخص ليس بالكلان**");  //NK-Rample
-      if(!clans[system[author.id].clan].admins.includes(mention.id)) return message.channel.send("**# هذا الشخص ليس ادمن بالكلان**");  //NK-Rample
-      if(mention.id === message.author.id) return message.channel.send("**# لا يمكنك اعطاء نفسك ترقية**");  //NK-Rample
-   //NK-Rample
-      clans[system[author.id].clan].admins.shift(mention.id);  //NK-Rample
+      mention.send(`**# \`${system[author.id].clan}\`, لقد تم ترقيتك الى ادمن**`).catch();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      message.channel.send(`**# \`${mention.username}\`, لقد تم ترقية العضو الى رتبة ادمن**`);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    }  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+    if(args[1] && args[1] === 'demote') {  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      let mention = message.mentions.users.first();  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(system[author.id].clan === 'None') return message.channel.send("**# يجب ان تكون بكلان لأستخدام هذا الأمر**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(clans[system[author.id].clan].creator !== message.author.id) return message.channel.send("**# هذا الأمر لضاحب الكلان فقط**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!mention) return message.channel.send("**# يجب عليك منشنة عضو بالكلان لأعطائه الترقية**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!system[mention.id]) system[mention.id] = {clan: 'None',joinedAt: new Date().toLocaleString() ,clanLevel: 0};  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(system[mention.id].clan === 'None') return message.channel.send("**# هذا الشخص ليس بكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!clans[system[author.id].clan].members.includes(mention.id)) return message.channel.send("**# هذا الشخص ليس بالكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(!clans[system[author.id].clan].admins.includes(mention.id)) return message.channel.send("**# هذا الشخص ليس ادمن بالكلان**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      if(mention.id === message.author.id) return message.channel.send("**# لا يمكنك اعطاء نفسك ترقية**");  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+   //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+      clans[system[author.id].clan].admins.shift(mention.id);  //╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
  
       mention.send(`**# \`${system[author.id].clan}\`, لقد تم ازالتك من منصب الادمن**`).catch();
       message.channel.send(`**# \`${mention.username}\`, لقد تم ازالة الادمنية من العضو**`);
@@ -925,7 +875,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' NK-Rample Is The Best ','Just Do It'];
+    var setGame = [' -help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' ╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱ Is The Best ','Just Do It'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -2174,7 +2124,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('Info NK-Rample.Bot.')
+            .setTitle('Info ╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱.Bot.')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -2765,7 +2715,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('NK-Rample.Bot' ,
+.addField('╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱.Bot' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -2816,7 +2766,7 @@ const zead = [
    '*** مريم : اعلم انك هنا في المنزل ***',
    '*** مريم : ماذا تريد ان تسمع ***',
    '*** احد ما خرج من المنزل ***',
-   '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر  ***'
+   '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدني في نشر البوت وادخل هذا السيرفر  ***'
 ];
  client.on('message', message => {
  if (message.content.startsWith('-مريم')) {
@@ -3095,7 +3045,7 @@ var cats = [
          var cat = new Discord.RichEmbed()
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 .setColor(0xd3d0c4)
-   .setFooter(`NK-Rample.Bot`)
+   .setFooter(`╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱.Bot`)
 message.channel.sendEmbed(cat);
 
     }
@@ -3738,7 +3688,7 @@ reaction1.on("collect", r => {
 『-rules ====> يعرض لك قوانين السيرفر
 『-v2min ====> لصنع روم صوتي مؤقت
 『-inv ====> لدعوة البوت الى سيرفرك
-『 By ====> NK-Rample
+『 By ====> ╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 **
 `)
    message.author.sendEmbed(embed)
@@ -3796,7 +3746,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> NK-Rample
+『 By ====> ╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 **
 `)
    message.author.sendEmbed(embed)
@@ -3834,7 +3784,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> NK-Rample
+『 By ====> ╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')
@@ -4398,6 +4348,39 @@ if(!user.bot) return msg.reply('`منشن بوت`');
 msg.channel.send(`**Bot InviteURL : ** https://discordapp.com/oauth2/authorize?client_id=${user.id}&scope=bot&permissions=384064`)
     }
 });
+
+client.on("message", message => {
+    if (message.content === "-rules") {
+           message.react("✅")
+              message.react("❌")
+     const embed = new Discord.RichEmbed() 
+         .setColor("#ffff00")
+         .setDescription(`
+  ●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
+[ ★・rules   |  قوانين السيرفر  ]
+1) ممنوع السب مع اى سبب 
+2)ممنوع الحديث عن الدين او سبه او مفاوضات دينيه 
+5)ممنوع التحدث عن السياسه  "
+6)ممنوع الصور الاباحيه او اى شي مخل بالادب 
+7)ممنوع نشر صور من  مواقع التواصل الاجتماعى  بحقوق ملكيه
+8)ممنوع طلب الرتبه والرتب تكون بالتفاعل
+9)لاستخدام البوت  فى - #cmd
+
+صاحب / مبرمج البوت :╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+الاوامر خاصه بسيرفر :╲⎝⧹『,༺♫¶»N҉K-҉Ram҉ple҉«¶♫༻,』⧸⎠╱
+__
+
+@everyone || @here
+●▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬●
+  
+    `)
+   
+      message.author.sendEmbed(embed)
+      
+      }
+}); 
+
+
 
 
 		
